@@ -1,0 +1,72 @@
+body {
+	background:url("../images/Sign Up Banner.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+.signup {
+	width: 360px;
+	height: 800px;
+	margin: auto;
+	background: #FFFFFF;
+	border-radius: 3px;
+}
+h1{
+	text-align: center;
+}
+h4{
+	text-align: center;
+	padding-top: 15px;
+}
+form{
+	width: 300px;
+	margin-left: 20px;
+}
+form label{
+	display:flex;
+	margin-top: 20px;
+	font-size:18px;
+}
+form Input{
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border: 1px solid gray;
+	border-radius: 6px;
+	outline: none;
+}
+input[type="submit"]{
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #EF7308;
+    font-size: 18px;
+	cursor: pointer;
+	
+}
+intput[type="submit"]:hover{
+	color: #FFFFFF;
+	background: #0DB9C1;
+}
+p{
+	text-align: center;
+	padding-top:20px;
+	font-size: 15px
+}
+input[type="button"]{
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #EF7308;
+    font-size: 18px;
+	cursor: pointer;
+}
+intput[type="button"]:hover{
+	color: #FFFFFF;
+	background: #0DB9C1;
+}

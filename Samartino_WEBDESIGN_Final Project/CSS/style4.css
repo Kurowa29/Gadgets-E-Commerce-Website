@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+::selection{
+    background-color: #dd4242;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    
+}
+.menu-btn{
+    display: none;
+}
+.logo{
+    font-size: 2.1rem;
+    color: #414141;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+ 
+.menu{
+    display: flex;
+}
+.menu li a{
+    margin: 5px;
+    padding: 5px 20px;
+    color: #2e2e2e;
+    font-weight: 500;
+    letter-spacing: 1px;
+    opacity: 0.4;
+    transition: all ease 0.2s;
+}
+.menu .active{
+    opacity: 1;
+}.right-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-elements a{
+    margin: 0px 10px;
+}
+.right-elements a i{
+    color: #2c2c2c;
+}
+.right-elements a:hover i{
+    color: #cf2728;
+    transition: all ease 0.2s;
+}
+.menu li a:hover{
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+	
+}
+.banner {
+padding-top: 40px;
+margin:auto;
+text-align:center;
+}
+.content {
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+.Bio {
+	text-align: center;
+	padding-top: 30px;
+	border: #000000;
+	font-size: 25px;
+	margin-top: 20px;
+	height: 180px;
+}
+
+.Pic {
+    width: 70%;
+	height: 70%;
+	margin: 10px;
+	display: flex;
+	margin-top: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.herewhy h1 {
+	margin-top:50px;
+}
